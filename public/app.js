@@ -1,6 +1,6 @@
 YUI().use('model', 'model-sync-rest', 'view', function (Y) {
 
-Y.User = Y.Base.create('user', Y.Model, [Y.ModelSync.REST], {root: '/users/'});
+Y.User = Y.Base.create('user', Y.Model, [Y.ModelSync.REST], {root: '/users'});
 
 Y.UserView = Y.Base.create('userView', Y.View, [], {
     initializer: function () {
