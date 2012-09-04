@@ -1,0 +1,23 @@
+{
+    "name"       : "model-sync-rest-test",
+    "description": "Simple app to show how `Y.ModelSync.REST` works.",
+    "homepage"   : "http://model-sync-rest-test.herokuapp.com",
+    "version"    : "0.0.1",
+    "author"     : "Eric Ferraiuolo <eferraiuolo@gmail.com> (http://ericf.me/)",
+    "main"       : "app",
+    "private"    : true,
+
+    "engines": {
+        "node": "0.8.x",
+        "npm" : "1.1.x"
+    },
+
+    "dependencies": {
+        "express": "~3.0"
+    },
+
+    "respository": {
+        "type": "git",
+        "url" : "git://github.com/ericf/model-sync-rest-test.git"
+    }
+}
