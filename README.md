@@ -1,4 +1,5 @@
-model-sync-rest-test
-====================
+ModelSync.REST Test
+===================
 
-Simple app to show how `Y.ModelSync.REST` works
+Simple Express.js + YUI app to show that the `Y.ModelSync.REST` class
+extension does work.
